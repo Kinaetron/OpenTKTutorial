@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleTextures", "Chapter1\MultipleTextures\MultipleTextures.csproj", "{60B1A552-1F58-425A-A0F4-C4ABF9110FEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformations", "Transformations\Transformations.csproj", "{5E81DFB0-3F2E-4FCE-B9E3-9FB21FF64753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateSystems", "CoordinateSystems\CoordinateSystems.csproj", "{2C0B4B5C-897D-41F4-A378-B0B0CDAE3DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camera", "Camera\Camera.csproj", "{8B91F514-8574-4A30-B8C8-D0D223707C29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +35,18 @@ Global
 		{60B1A552-1F58-425A-A0F4-C4ABF9110FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B1A552-1F58-425A-A0F4-C4ABF9110FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B1A552-1F58-425A-A0F4-C4ABF9110FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E81DFB0-3F2E-4FCE-B9E3-9FB21FF64753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E81DFB0-3F2E-4FCE-B9E3-9FB21FF64753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E81DFB0-3F2E-4FCE-B9E3-9FB21FF64753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E81DFB0-3F2E-4FCE-B9E3-9FB21FF64753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B4B5C-897D-41F4-A378-B0B0CDAE3DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B4B5C-897D-41F4-A378-B0B0CDAE3DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B4B5C-897D-41F4-A378-B0B0CDAE3DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B4B5C-897D-41F4-A378-B0B0CDAE3DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B91F514-8574-4A30-B8C8-D0D223707C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B91F514-8574-4A30-B8C8-D0D223707C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B91F514-8574-4A30-B8C8-D0D223707C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B91F514-8574-4A30-B8C8-D0D223707C29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +54,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0F5417DD-09F5-4D19-8626-DF474B5B53B6} = {39F5B07A-3B63-40D7-9822-A943A1BE1707}
 		{60B1A552-1F58-425A-A0F4-C4ABF9110FEA} = {39F5B07A-3B63-40D7-9822-A943A1BE1707}
+		{5E81DFB0-3F2E-4FCE-B9E3-9FB21FF64753} = {39F5B07A-3B63-40D7-9822-A943A1BE1707}
+		{2C0B4B5C-897D-41F4-A378-B0B0CDAE3DC9} = {39F5B07A-3B63-40D7-9822-A943A1BE1707}
+		{8B91F514-8574-4A30-B8C8-D0D223707C29} = {39F5B07A-3B63-40D7-9822-A943A1BE1707}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F0D9E82-E2CB-4415-B8AC-1D9218A58501}
